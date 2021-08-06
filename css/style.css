@@ -61,7 +61,6 @@ header nav .left a{
     color: var(--pure);
     text-decoration: none;
     margin-right: 2rem;
-    text-transform: uppercase;
     transition: all.3s ease;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -76,6 +75,19 @@ header nav{
 }
 header nav .branding{
     margin-right: 3rem;
+}
+.logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Ubuntu' , sans-serif;
+    text-transform: lowercase;
+}
+.logo a span{
+    color: #3DCFD3;
+    transition: all 0.3s ease;
+    font-family: 'Ubuntu',sans-serif;
+    text-transform: lowercase;
 }
 .hero{
     padding: 3rem 0;
